@@ -1,0 +1,49 @@
+//
+//  BopLost.pch
+//  TheBopLost
+//
+//  Created by mosaic on 2018/4/8.
+//  Copyright © 2018年 mosaic. All rights reserved.
+//
+
+#ifndef BopLost_pch
+#define BopLost_pch
+
+#import "Singleton.h"
+#import "NSString+ZKString.h"
+#import "NSData+ZKData.h"
+#import "FMDB.h"
+#import "UICKeyChainStore.h"
+#import "BlePeripheral.h"
+#import "BleCenterManger.h"
+
+#define ZKSCREEN_W [UIScreen mainScreen].bounds.size.width
+#define ZKSCREEN_H [UIScreen mainScreen].bounds.size.height
+
+// 1920 * 1080 高清壁纸
+#define relative_w(x)  (x/1080.0*ZKSCREEN_W)
+#define relative_h(x)  (x/1920.0*ZKSCREEN_H)
+
+#define rel_View_w(x,w)  (x/1080.0*w)
+#define rel_View_h(x,h)  (x/1920.0*h)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//自定义日志
+#ifdef DEBUG
+
+#define LRString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define ZKLog(...)  printf("%s: %s %s 第%d行: %s\n\n",[[NSString lr_stringDate] UTF8String],[[NSString stringWithFormat:@"%@",[NSThread currentThread]] UTF8String], [LRString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else
+#define  ZKLog(...)
+
+#endif
+
+
+#define UUID_Lost_SERVER  @"FE557310-4180-8A02-EF2C-1B42A0AC3F83"
+#define UUID_Write_SERVER  @"FE557311-4180-8A02-EF2C-1B42A0AC3F83"
+#define UUID_Read_SERVER  @"FE557312-4180-8A02-EF2C-1B42A0AC3F83"
+
+#endif /* BopLost_pch */

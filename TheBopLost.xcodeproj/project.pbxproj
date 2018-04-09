@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015DBA75207AE70700FDE8B9 /* BlePeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DBA74207AE70700FDE8B9 /* BlePeripheral.m */; };
+		015DBA78207AE72500FDE8B9 /* BleCenterManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 015DBA77207AE72500FDE8B9 /* BleCenterManger.m */; };
+		01876D24207B131100B144AA /* ZKSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01876D22207B131100B144AA /* ZKSearchTableViewController.m */; };
+		01876D25207B131100B144AA /* ZKSearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01876D23207B131100B144AA /* ZKSearchTableViewController.xib */; };
+		01D44B602079E1AA002A9A40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44B5F2079E1AA002A9A40 /* AppDelegate.m */; };
+		01D44B682079E1AA002A9A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D44B672079E1AA002A9A40 /* Assets.xcassets */; };
+		01D44B6B2079E1AA002A9A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D44B692079E1AA002A9A40 /* LaunchScreen.storyboard */; };
+		01D44B6E2079E1AA002A9A40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44B6D2079E1AA002A9A40 /* main.m */; };
+		01D44B782079E1AA002A9A40 /* TheBopLostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44B772079E1AA002A9A40 /* TheBopLostTests.m */; };
+		01D44B832079E1AA002A9A40 /* TheBopLostUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44B822079E1AA002A9A40 /* TheBopLostUITests.m */; };
+		01D44B932079E6B9002A9A40 /* ZKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44B922079E6B9002A9A40 /* ZKNavigationController.m */; };
+		01D44BB3207A0386002A9A40 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BA9207A0386002A9A40 /* FMDatabaseQueue.m */; };
+		01D44BB4207A0386002A9A40 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BAC207A0386002A9A40 /* FMDatabaseAdditions.m */; };
+		01D44BB5207A0386002A9A40 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BAD207A0386002A9A40 /* FMDatabase.m */; };
+		01D44BB6207A0386002A9A40 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BB1207A0386002A9A40 /* FMDatabasePool.m */; };
+		01D44BB7207A0386002A9A40 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BB2207A0386002A9A40 /* FMResultSet.m */; };
+		01D44BBA207A085B002A9A40 /* ZKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BB9207A085B002A9A40 /* ZKKViewController.m */; };
+		01D44BBC207A08DC002A9A40 /* ZKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D44BBB207A08DC002A9A40 /* ZKKViewController.xib */; };
+		01D44BC0207A0B0F002A9A40 /* NSString+ZKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BBE207A0B0F002A9A40 /* NSString+ZKString.m */; };
+		01D44BD1207A0FB7002A9A40 /* NSData+ZKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BD0207A0FB7002A9A40 /* NSData+ZKData.m */; };
+		01D44BD5207A2AB4002A9A40 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D44BD3207A2AB4002A9A40 /* UICKeyChainStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D44B742079E1AA002A9A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D44B532079E1AA002A9A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D44B5A2079E1AA002A9A40;
+			remoteInfo = TheBopLost;
+		};
+		01D44B7F2079E1AA002A9A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D44B532079E1AA002A9A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D44B5A2079E1AA002A9A40;
+			remoteInfo = TheBopLost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015DBA73207AE70700FDE8B9 /* BlePeripheral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlePeripheral.h; sourceTree = "<group>"; };
+		015DBA74207AE70700FDE8B9 /* BlePeripheral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlePeripheral.m; sourceTree = "<group>"; };
+		015DBA76207AE72500FDE8B9 /* BleCenterManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BleCenterManger.h; sourceTree = "<group>"; };
+		015DBA77207AE72500FDE8B9 /* BleCenterManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleCenterManger.m; sourceTree = "<group>"; };
+		01876D21207B131100B144AA /* ZKSearchTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSearchTableViewController.h; sourceTree = "<group>"; };
+		01876D22207B131100B144AA /* ZKSearchTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchTableViewController.m; sourceTree = "<group>"; };
+		01876D23207B131100B144AA /* ZKSearchTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKSearchTableViewController.xib; sourceTree = "<group>"; };
+		01D44B5B2079E1AA002A9A40 /* TheBopLost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBopLost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D44B5E2079E1AA002A9A40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01D44B5F2079E1AA002A9A40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01D44B672079E1AA002A9A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01D44B6A2079E1AA002A9A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01D44B6C2079E1AA002A9A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D44B6D2079E1AA002A9A40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01D44B732079E1AA002A9A40 /* TheBopLostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBopLostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D44B772079E1AA002A9A40 /* TheBopLostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBopLostTests.m; sourceTree = "<group>"; };
+		01D44B792079E1AA002A9A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D44B7E2079E1AA002A9A40 /* TheBopLostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBopLostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D44B822079E1AA002A9A40 /* TheBopLostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBopLostUITests.m; sourceTree = "<group>"; };
+		01D44B842079E1AA002A9A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D44B912079E6B9002A9A40 /* ZKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNavigationController.h; sourceTree = "<group>"; };
+		01D44B922079E6B9002A9A40 /* ZKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNavigationController.m; sourceTree = "<group>"; };
+		01D44BA2207A01A8002A9A40 /* BopLost.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BopLost.pch; sourceTree = "<group>"; };
+		01D44BA3207A026B002A9A40 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		01D44BA8207A0386002A9A40 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		01D44BA9207A0386002A9A40 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		01D44BAA207A0386002A9A40 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		01D44BAB207A0386002A9A40 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		01D44BAC207A0386002A9A40 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		01D44BAD207A0386002A9A40 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		01D44BAE207A0386002A9A40 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		01D44BAF207A0386002A9A40 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		01D44BB0207A0386002A9A40 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		01D44BB1207A0386002A9A40 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		01D44BB2207A0386002A9A40 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		01D44BB8207A085B002A9A40 /* ZKKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKKViewController.h; sourceTree = "<group>"; };
+		01D44BB9207A085B002A9A40 /* ZKKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKKViewController.m; sourceTree = "<group>"; };
+		01D44BBB207A08DC002A9A40 /* ZKKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKKViewController.xib; sourceTree = "<group>"; };
+		01D44BBE207A0B0F002A9A40 /* NSString+ZKString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZKString.m"; sourceTree = "<group>"; };
+		01D44BBF207A0B0F002A9A40 /* NSString+ZKString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZKString.h"; sourceTree = "<group>"; };
+		01D44BCF207A0FB7002A9A40 /* NSData+ZKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZKData.h"; sourceTree = "<group>"; };
+		01D44BD0207A0FB7002A9A40 /* NSData+ZKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZKData.m"; sourceTree = "<group>"; };
+		01D44BD3207A2AB4002A9A40 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		01D44BD4207A2AB4002A9A40 /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D44B582079E1AA002A9A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B702079E1AA002A9A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B7B2079E1AA002A9A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015DBA6F207AE55F00FDE8B9 /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				015DBA76207AE72500FDE8B9 /* BleCenterManger.h */,
+				015DBA77207AE72500FDE8B9 /* BleCenterManger.m */,
+				015DBA73207AE70700FDE8B9 /* BlePeripheral.h */,
+				015DBA74207AE70700FDE8B9 /* BlePeripheral.m */,
+			);
+			path = BLEManager;
+			sourceTree = "<group>";
+		};
+		01D44B522079E1AA002A9A40 = {
+			isa = PBXGroup;
+			children = (
+				01D44B5D2079E1AA002A9A40 /* TheBopLost */,
+				01D44B762079E1AA002A9A40 /* TheBopLostTests */,
+				01D44B812079E1AA002A9A40 /* TheBopLostUITests */,
+				01D44B5C2079E1AA002A9A40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D44B5C2079E1AA002A9A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B5B2079E1AA002A9A40 /* TheBopLost.app */,
+				01D44B732079E1AA002A9A40 /* TheBopLostTests.xctest */,
+				01D44B7E2079E1AA002A9A40 /* TheBopLostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D44B5D2079E1AA002A9A40 /* TheBopLost */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B942079E6EE002A9A40 /* Main */,
+				01D44BA4207A027D002A9A40 /* Class */,
+				01D44BA6207A0374002A9A40 /* Lib */,
+				015DBA6F207AE55F00FDE8B9 /* BLEManager */,
+				01D44BA5207A028C002A9A40 /* Singleton */,
+				01D44BBD207A0AF9002A9A40 /* Catetory */,
+				01D44B902079E29B002A9A40 /* Other */,
+			);
+			path = TheBopLost;
+			sourceTree = "<group>";
+		};
+		01D44B762079E1AA002A9A40 /* TheBopLostTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B772079E1AA002A9A40 /* TheBopLostTests.m */,
+				01D44B792079E1AA002A9A40 /* Info.plist */,
+			);
+			path = TheBopLostTests;
+			sourceTree = "<group>";
+		};
+		01D44B812079E1AA002A9A40 /* TheBopLostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B822079E1AA002A9A40 /* TheBopLostUITests.m */,
+				01D44B842079E1AA002A9A40 /* Info.plist */,
+			);
+			path = TheBopLostUITests;
+			sourceTree = "<group>";
+		};
+		01D44B902079E29B002A9A40 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B6D2079E1AA002A9A40 /* main.m */,
+				01D44B5E2079E1AA002A9A40 /* AppDelegate.h */,
+				01D44B5F2079E1AA002A9A40 /* AppDelegate.m */,
+				01D44B692079E1AA002A9A40 /* LaunchScreen.storyboard */,
+				01D44B672079E1AA002A9A40 /* Assets.xcassets */,
+				01D44B6C2079E1AA002A9A40 /* Info.plist */,
+				01D44BA2207A01A8002A9A40 /* BopLost.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		01D44B942079E6EE002A9A40 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				01D44B912079E6B9002A9A40 /* ZKNavigationController.h */,
+				01D44B922079E6B9002A9A40 /* ZKNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		01D44BA4207A027D002A9A40 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BB8207A085B002A9A40 /* ZKKViewController.h */,
+				01D44BB9207A085B002A9A40 /* ZKKViewController.m */,
+				01D44BBB207A08DC002A9A40 /* ZKKViewController.xib */,
+				01876D21207B131100B144AA /* ZKSearchTableViewController.h */,
+				01876D22207B131100B144AA /* ZKSearchTableViewController.m */,
+				01876D23207B131100B144AA /* ZKSearchTableViewController.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		01D44BA5207A028C002A9A40 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BA3207A026B002A9A40 /* Singleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		01D44BA6207A0374002A9A40 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BD2207A2AB4002A9A40 /* UICKeyChainStore */,
+				01D44BA7207A0386002A9A40 /* FMDB */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		01D44BA7207A0386002A9A40 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BA8207A0386002A9A40 /* FMDatabase.h */,
+				01D44BA9207A0386002A9A40 /* FMDatabaseQueue.m */,
+				01D44BAA207A0386002A9A40 /* FMResultSet.h */,
+				01D44BAB207A0386002A9A40 /* FMDatabasePool.h */,
+				01D44BAC207A0386002A9A40 /* FMDatabaseAdditions.m */,
+				01D44BAD207A0386002A9A40 /* FMDatabase.m */,
+				01D44BAE207A0386002A9A40 /* FMDatabaseQueue.h */,
+				01D44BAF207A0386002A9A40 /* FMDB.h */,
+				01D44BB0207A0386002A9A40 /* FMDatabaseAdditions.h */,
+				01D44BB1207A0386002A9A40 /* FMDatabasePool.m */,
+				01D44BB2207A0386002A9A40 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		01D44BBD207A0AF9002A9A40 /* Catetory */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BCF207A0FB7002A9A40 /* NSData+ZKData.h */,
+				01D44BD0207A0FB7002A9A40 /* NSData+ZKData.m */,
+				01D44BBF207A0B0F002A9A40 /* NSString+ZKString.h */,
+				01D44BBE207A0B0F002A9A40 /* NSString+ZKString.m */,
+			);
+			path = Catetory;
+			sourceTree = "<group>";
+		};
+		01D44BD2207A2AB4002A9A40 /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				01D44BD4207A2AB4002A9A40 /* UICKeyChainStore.h */,
+				01D44BD3207A2AB4002A9A40 /* UICKeyChainStore.m */,
+			);
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D44B5A2079E1AA002A9A40 /* TheBopLost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D44B872079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLost" */;
+			buildPhases = (
+				01D44B572079E1AA002A9A40 /* Sources */,
+				01D44B582079E1AA002A9A40 /* Frameworks */,
+				01D44B592079E1AA002A9A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBopLost;
+			productName = TheBopLost;
+			productReference = 01D44B5B2079E1AA002A9A40 /* TheBopLost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01D44B722079E1AA002A9A40 /* TheBopLostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D44B8A2079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLostTests" */;
+			buildPhases = (
+				01D44B6F2079E1AA002A9A40 /* Sources */,
+				01D44B702079E1AA002A9A40 /* Frameworks */,
+				01D44B712079E1AA002A9A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D44B752079E1AA002A9A40 /* PBXTargetDependency */,
+			);
+			name = TheBopLostTests;
+			productName = TheBopLostTests;
+			productReference = 01D44B732079E1AA002A9A40 /* TheBopLostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01D44B7D2079E1AA002A9A40 /* TheBopLostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D44B8D2079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLostUITests" */;
+			buildPhases = (
+				01D44B7A2079E1AA002A9A40 /* Sources */,
+				01D44B7B2079E1AA002A9A40 /* Frameworks */,
+				01D44B7C2079E1AA002A9A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D44B802079E1AA002A9A40 /* PBXTargetDependency */,
+			);
+			name = TheBopLostUITests;
+			productName = TheBopLostUITests;
+			productReference = 01D44B7E2079E1AA002A9A40 /* TheBopLostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D44B532079E1AA002A9A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mosaic;
+				TargetAttributes = {
+					01D44B5A2079E1AA002A9A40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					01D44B722079E1AA002A9A40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01D44B5A2079E1AA002A9A40;
+					};
+					01D44B7D2079E1AA002A9A40 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01D44B5A2079E1AA002A9A40;
+					};
+				};
+			};
+			buildConfigurationList = 01D44B562079E1AA002A9A40 /* Build configuration list for PBXProject "TheBopLost" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01D44B522079E1AA002A9A40;
+			productRefGroup = 01D44B5C2079E1AA002A9A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D44B5A2079E1AA002A9A40 /* TheBopLost */,
+				01D44B722079E1AA002A9A40 /* TheBopLostTests */,
+				01D44B7D2079E1AA002A9A40 /* TheBopLostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D44B592079E1AA002A9A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D44B6B2079E1AA002A9A40 /* LaunchScreen.storyboard in Resources */,
+				01D44BBC207A08DC002A9A40 /* ZKKViewController.xib in Resources */,
+				01876D25207B131100B144AA /* ZKSearchTableViewController.xib in Resources */,
+				01D44B682079E1AA002A9A40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B712079E1AA002A9A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B7C2079E1AA002A9A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D44B572079E1AA002A9A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D44BBA207A085B002A9A40 /* ZKKViewController.m in Sources */,
+				01D44BB3207A0386002A9A40 /* FMDatabaseQueue.m in Sources */,
+				015DBA78207AE72500FDE8B9 /* BleCenterManger.m in Sources */,
+				01D44B932079E6B9002A9A40 /* ZKNavigationController.m in Sources */,
+				01D44BB5207A0386002A9A40 /* FMDatabase.m in Sources */,
+				01D44B6E2079E1AA002A9A40 /* main.m in Sources */,
+				01876D24207B131100B144AA /* ZKSearchTableViewController.m in Sources */,
+				01D44BB6207A0386002A9A40 /* FMDatabasePool.m in Sources */,
+				01D44BB7207A0386002A9A40 /* FMResultSet.m in Sources */,
+				01D44BC0207A0B0F002A9A40 /* NSString+ZKString.m in Sources */,
+				01D44BD1207A0FB7002A9A40 /* NSData+ZKData.m in Sources */,
+				01D44B602079E1AA002A9A40 /* AppDelegate.m in Sources */,
+				015DBA75207AE70700FDE8B9 /* BlePeripheral.m in Sources */,
+				01D44BB4207A0386002A9A40 /* FMDatabaseAdditions.m in Sources */,
+				01D44BD5207A2AB4002A9A40 /* UICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B6F2079E1AA002A9A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D44B782079E1AA002A9A40 /* TheBopLostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D44B7A2079E1AA002A9A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D44B832079E1AA002A9A40 /* TheBopLostUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D44B752079E1AA002A9A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D44B5A2079E1AA002A9A40 /* TheBopLost */;
+			targetProxy = 01D44B742079E1AA002A9A40 /* PBXContainerItemProxy */;
+		};
+		01D44B802079E1AA002A9A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D44B5A2079E1AA002A9A40 /* TheBopLost */;
+			targetProxy = 01D44B7F2079E1AA002A9A40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01D44B692079E1AA002A9A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D44B6A2079E1AA002A9A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D44B852079E1AA002A9A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01D44B862079E1AA002A9A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D44B882079E1AA002A9A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TheBopLost/Other/BopLost.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TheBopLost/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01D44B892079E1AA002A9A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TheBopLost/Other/BopLost.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TheBopLost/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		01D44B8B2079E1AA002A9A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = TheBopLostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBopLost.app/TheBopLost";
+			};
+			name = Debug;
+		};
+		01D44B8C2079E1AA002A9A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = TheBopLostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBopLost.app/TheBopLost";
+			};
+			name = Release;
+		};
+		01D44B8E2079E1AA002A9A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = TheBopLostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBopLost;
+			};
+			name = Debug;
+		};
+		01D44B8F2079E1AA002A9A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = TheBopLostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mosaic.TheBopLostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBopLost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D44B562079E1AA002A9A40 /* Build configuration list for PBXProject "TheBopLost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D44B852079E1AA002A9A40 /* Debug */,
+				01D44B862079E1AA002A9A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D44B872079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D44B882079E1AA002A9A40 /* Debug */,
+				01D44B892079E1AA002A9A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D44B8A2079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D44B8B2079E1AA002A9A40 /* Debug */,
+				01D44B8C2079E1AA002A9A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D44B8D2079E1AA002A9A40 /* Build configuration list for PBXNativeTarget "TheBopLostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D44B8E2079E1AA002A9A40 /* Debug */,
+				01D44B8F2079E1AA002A9A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D44B532079E1AA002A9A40 /* Project object */;
+}
